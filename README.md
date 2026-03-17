@@ -1,16 +1,70 @@
-# React + Vite
+# 🌿 GreenLeaf Co. - Houseplant Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce web application for browsing and purchasing houseplants, built with **React, Redux Toolkit, and Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 🏠 Landing Page
+- Background image for visual appeal
+- Company name and introduction
+- “Get Started” button linking to product listing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌱 Product Listing Page
+- 6 unique houseplants displayed
+- Grouped into categories (Indoor, Outdoor, Succulents)
+- Each plant shows:
+  - Image
+  - Name
+  - Price
+- Add to Cart functionality:
+  - Increases cart count
+  - Disables button after adding
+  - Adds item to cart
 
-## Expanding the ESLint configuration
+### 🛒 Shopping Cart
+- Displays:
+  - Total number of items
+  - Total cost
+- Each item includes:
+  - Thumbnail
+  - Name
+  - Unit price
+- Functional controls:
+  - Increase quantity
+  - Decrease quantity
+  - Delete item
+- Checkout button (Coming Soon)
+- Continue Shopping button
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔝 Header
+- Visible across pages
+- Navigation between pages
+- Cart icon with live item count
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **State Management:** Redux Toolkit
+- **Routing:** React Router
+- **Styling:** Tailwind CSS
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/github-final-project.git
+
+# Navigate into project
+cd github-final-project
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
